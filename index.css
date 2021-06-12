@@ -1,0 +1,100 @@
+.btnorange {
+  background-color: orange;
+}
+.awards {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 500px;
+  position: relative;
+}
+.awards:before {
+  background-color: black;
+  display: block;
+  width: 120px;
+  height: 2px;
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  z-index: -1;
+}
+.awards:after {
+  background-color: black;
+  display: block;
+  width: 120px;
+  height: 2px;
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  z-index: -1;
+}
+.poems {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 500px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .poems:before {
+    background-color: black;
+    display: block;
+    width: 120px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    z-index: -1;
+    margin: 1px 0px;
+  }
+  .poems:after {
+    background-color: black;
+    display: block;
+    width: 120px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    z-index: -1;
+    margin: 1px 0px;
+  }
+}
+
+.sidemargin {
+  border-left: 2px solid lightslategrey;
+}
+/* .poems {
+  text-align: center;
+  margin: 10% auto;
+  max-width: 100%;
+  position: relative;
+}
+.poems:before {
+  background-color: black;
+  display: block;
+  width: 30%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  z-index: -1;
+  margin: 1px 0px;
+}
+.poems:after {
+  background-color: black;
+  display: block;
+  width: 30%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  z-index: -1;
+  margin: 1px 0px;
+}
+.sidemargin {
+  border-left: 2px solid lightslategrey;
+} */
